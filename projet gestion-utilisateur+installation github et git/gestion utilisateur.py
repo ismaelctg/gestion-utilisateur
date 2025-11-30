@@ -4,7 +4,7 @@ utilisateurs = []
 def hacher_mdp(mdp):
     return mdp[::-1]
 
-# Ajouter un utilisateur
+
 def ajouter_utilisateur():
     nom = input("Nom : ")
     email = input("Email : ")
