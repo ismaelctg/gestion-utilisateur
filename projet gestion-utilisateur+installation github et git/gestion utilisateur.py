@@ -2,7 +2,7 @@
 utilisateurs = []
 
 def hacher_mdp(mdp):
-    return mdp[::-1]
+    return mdp[::-1] #chat#
 
 
 def ajouter_utilisateur():
@@ -20,7 +20,7 @@ def ajouter_utilisateur():
 
 def afficher_utilisateurs():
     if not utilisateurs:
-        print("⚠️ Aucun utilisateur enregistré.")
+        print(" Aucun utilisateur enregistré.")
     else:
         for i, u in enumerate(utilisateurs):
             print(f"{i+1}. Nom: {u['nom']}, Email: {u['email']}, MDP: {u['mdp']}")
